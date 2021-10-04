@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl":"https://www.amazon.in/Samsung-Galaxy-M12-Storage-Processor/dp/B08XGDN3TZ/?_encoding=UTF8&smid=A1EWEIV3F4B24B&pd_rd_w=WjyT9&pf_rd_p=3696143c-25d5-4800-a353-d0968ec1db88&pf_rd_r=XE3AXJ6F4TQPZX25QEC2&pd_rd_r=54bd1804-8fef-4db7-b963-6354875a4be9&pd_rd_wg=vy6aZ&ref_=pd_gw_unk"
+}
