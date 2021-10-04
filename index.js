@@ -1,11 +1,12 @@
 const express = require("express");
 const connectDB = require("./config/db");
+require('dotenv').config({ path: './config/.env' });
 const app = express();
 
 //connect to the database
 connectDB();
 
-//it alowes us to accept json data into our api
+//it allows us to accept json data into our api
 app.use(express.json({ extended: false }));
 
 //define routes
